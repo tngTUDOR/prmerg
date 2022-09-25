@@ -1,8 +1,8 @@
 ---
 name: only_regular_PR
-on: [pull_request]
-  types: [opened, reopened]
-
+on:
+  pull_request:
+    types:    [opened, reopened]
 jobs:
   do_echo:
     runs-on: ubuntu-latest
