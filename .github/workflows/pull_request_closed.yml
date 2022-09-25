@@ -1,4 +1,6 @@
-name: PR closed
+---
+
+name: PR_closed
 on: pull_request
   types: [closed]
 
