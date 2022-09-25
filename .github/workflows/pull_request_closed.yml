@@ -1,0 +1,9 @@
+name: PR closed
+on: pull_request
+types:
+  - closed
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "🦘"
