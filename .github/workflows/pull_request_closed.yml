@@ -4,6 +4,7 @@ types:
   - closed
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "🦘"
+  echo_kangoo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🦘"
