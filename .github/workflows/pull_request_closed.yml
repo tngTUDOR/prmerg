@@ -1,6 +1,9 @@
-name: PR closed
-on: pull_request
-  types: [closed]
+---
+
+name: PR_closed
+on:
+  pull_request:
+    types: [closed]
 
 jobs:
   echo_kangoo:
